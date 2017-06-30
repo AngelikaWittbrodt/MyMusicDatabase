@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context="my.angelika.com.mymusicdatabase.MainActivity">
+
+		<Button
+				android:id="@+id/btnAddSharedPref"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Add Shared Preferences"/>
+
+		<Button
+				android:id="@+id/btnViewSharedPref"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="Shared Preferences"/>
+
+		<Button
+				android:id="@+id/btnAddInternalStorage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Add Internal Storage"/>
+
+		<Button
+				android:id="@+id/btnViewInternalStorage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="View Internal Storage"/>
+
+		<Button
+				android:id="@+id/btnAddExternalStorage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Add External Storage"/>
+
+		<Button
+				android:id="@+id/btnViewExternalStorage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="View External Storage"/>
+
+		<Button
+				android:id="@+id/btnAddInternalDB"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Add Internal Database"/>
+
+		<Button
+				android:id="@+id/btnViewInternalDB"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="View Internal Database"/>
+</LinearLayout>
